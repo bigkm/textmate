@@ -727,7 +727,7 @@ static bool is_binary (std::string const& path)
 			outlineViewDelegate.outlineView = view.outlineView;
 
 			view.outlineView.target       = self;
-			view.outlineView.action       = @selector(didSingleClickOutlineView:);
+			view.outlineView.action       = @selector(didDoubleClickOutlineView:);
 			view.outlineView.doubleAction = @selector(didDoubleClickOutlineView:);
 			view.outlineView.menuDelegate = self;
 
